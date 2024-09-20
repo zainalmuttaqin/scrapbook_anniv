@@ -5,22 +5,19 @@ body {
     height: 100vh;
     background-color: #838383;
     margin: 0;
-    font-size: 16px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 800px; /* max width for desktop */
-    margin: 0 auto; /* center horizontally */
 }
 
 .book-container {
-    width: 100%;
+    width: 800px;
     height: 500px;
     perspective: 1500px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
 
 .book {
@@ -101,17 +98,4 @@ body {
 .lyrics-container p {
     text-align: justify;
     margin: 0 auto;
-  }
-
-  /* media query for mobile devices */
-@media only screen and (max-width: 768px) {
-    .container {
-      max-width: 100%; /* full width for mobile */
-    }
-    .book-container {
-      height: 300px; /* smaller height for mobile */
-    }
-    .page {
-      width: 100%; /* full width for mobile */
-    }
   }
